@@ -1,4 +1,4 @@
-import styles from './Home.module.css'
+import styles from '../pages-css/Home.module.css'
 
 import savings from '../../img/savings.svg'
 import LinkButton from '../layouts/LinkButton'
