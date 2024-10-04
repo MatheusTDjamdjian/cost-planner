@@ -1,4 +1,4 @@
-import styles from '../form-css/Select.module.css'
+import styles from './css/Select.module.css'
 
 function Select({ text, name, options, handleOnChange, value }) {
     return (
