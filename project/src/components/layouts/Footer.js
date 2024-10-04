@@ -1,6 +1,6 @@
 import {FaInstagram, FaLinkedin, FaEnvelope} from 'react-icons/fa'
 
-import styles from './Footer.module.css'
+import styles from '../layouts-css/Footer.module.css'
 
 function Footer() {
     return (<footer className={styles.footer}> 
