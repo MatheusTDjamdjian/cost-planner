@@ -4,7 +4,7 @@ import Input from '../form/Input.js'
 import Select from '../form/Select.js'
 import SubmitButton from '../form/SubmitButton.js'
 
-import styles from './ProjectForm.module.css'
+import styles from './css/ProjectForm.module.css'
 
 function ProjectForm({handleSubmit, btnText, projectData}) {
 
