@@ -34,9 +34,24 @@ function Projects() {
                 setProjects(data)
                 setRemoveLoading(true)
             })
-            .catch(err => console.log(err))
+            .catch((err) => console.log(err))
         }, 300)
     }, [])
+
+    function removeProject(id) {
+
+        fetch(`http://localhost:5000/projects/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        }).then(data => {
+            setProjects(projects.filter((project) => project.id !== id))
+            // message
+        })
+        .catch((err) => console.log(err))
+ 
+    }
 
     return (
         <div className={styles.project_container}>
@@ -54,8 +69,10 @@ function Projects() {
                      budget={project.budget}
                      category={project.category.name}
                      key={project.id}
+                     handleRemove={removeProject}
                     />
-                ))}
+                  ))
+                }
               {!removeLoading && <Loading/>}
               {removeLoading && projects.length === 0 (
                 <p>Não há projetos cadastrados!</p>
