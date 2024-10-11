@@ -20,6 +20,7 @@ function ProjectForm({handleSubmit, btnText, projectData}) {
         })
           .then((resp) => resp.json())
           .then((data) => {
+            console.log(data)
             setCategories(data)
           })
           .catch((err) => console.log(err)) 
