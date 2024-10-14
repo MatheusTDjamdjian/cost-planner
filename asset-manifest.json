@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cost-planner/static/css/main.c48edbea.css",
+    "main.js": "/cost-planner/static/js/main.cbd536e8.js",
+    "static/media/savings.svg": "/cost-planner/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
+    "index.html": "/cost-planner/index.html",
+    "static/media/loading.svg": "/cost-planner/static/media/loading.5ff8599871e56a8a672f0861a01ef3bc.svg",
+    "main.c48edbea.css.map": "/cost-planner/static/css/main.c48edbea.css.map",
+    "main.cbd536e8.js.map": "/cost-planner/static/js/main.cbd536e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48edbea.css",
+    "static/js/main.cbd536e8.js"
+  ]
+}
