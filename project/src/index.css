@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Fredoka", sans-serif;
+  font-weight: 600;
 }
 
 html, body, #root {
