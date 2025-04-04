@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './css/Input.module.css'
 
 function Input({ type, text, name, placeholder, handleOnChange, value }) {
